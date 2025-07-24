@@ -20,7 +20,7 @@ let signs = ["+", "-", "*", "/"]
 
 function getRandomSign(){
 return signs [randint(0,3)]
-}
+}sdfsdf
 class Question {
   constructor(){
     let a = randint(1,30)
