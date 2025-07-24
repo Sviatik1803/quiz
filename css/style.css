@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #b3b3ff;
+}
+
+
+.container{
+    display: none;
+    align-items: center;
+        /* justify-content: center; */
+    flex-direction: column;    
+    padding-top:70px;
+    color: black;
+}
+
+.question{
+    font-size: 80px;
+    margin-bottom: 15px;
+
+}
+
+.answers{
+    display: flex;
+}
+
+/* .answer{
+    border:1px solid black;
+    padding: 20px;
+    margin:5px;
+    border-radius: 5px;
+    cursor:pointer;
+} */
+
+.answer {
+    width: 65px; 
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.start-container{
+      display: flex;
+  justify-content: center; /* центрування по горизонталі */
+  align-items: center;     /* центрування по вертикалі */
+  flex-direction: column;
+  height: 100vh;  
+
+}
+
+button{
+   
+
+  width:fit-content;
+  background-color: #6495ED; 
+  color: white; 
+  font-size: 25px; 
+  font-weight: bold; 
+  border: none; 
+  border-radius: 16px; 
+  padding:24px;
+  cursor: pointer; 
+  transition: all 0.3s ease-in-out; 
+  margin-bottom: 15px;
+}
